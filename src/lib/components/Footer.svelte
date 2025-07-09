@@ -1,13 +1,13 @@
 <footer class="layout-md mt-20 text-lg flex flex-col">
   <div class="row">
-    <span>Twitter</span>
+    <span>LinkedIn</span>
     <hr />
-    <a class="link" href="https://twitter.com/ekzhang1">@ekzhang1</a>
+    <a class="link" href="https://www.linkedin.com/in/areggevorgyan1/">in/areggevorgyan1</a>
   </div>
   <div class="row">
     <span>GitHub</span>
     <hr />
-    <a class="link" href="https://github.com/ekzhang">@ekzhang</a>
+    <a class="link" href="https://github.com/AregGevorgyan">@AregGevorgyan</a>
   </div>
   <div class="row">
     <span>Email</span>
