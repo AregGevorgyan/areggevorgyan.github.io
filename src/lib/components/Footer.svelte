@@ -12,7 +12,10 @@
   <div class="row">
     <span>Email</span>
     <hr />
-    <a class="link" href="mailto:ekzhang1@gmail.com">ekzhang1@gmail.com</a>
+    <a class="link" href="mailto:areg@terpmail.umd.edu">areg@terpmail.umd.edu</a>
+  </div>
+  <div class="row">
+    <span class="w-full text-center text-neutral-500">Website template from <a class="link" href="https://www.ekzhang.com/">Eric Zhang</a></span>
   </div>
 </footer>
 

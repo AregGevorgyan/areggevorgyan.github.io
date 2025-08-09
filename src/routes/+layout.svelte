@@ -22,7 +22,7 @@
   {#if !dev}
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-156644599-1"
+      src="https://www.googletagmanager.com/gtag/js?id=G-2QBHQ1XGJV"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];

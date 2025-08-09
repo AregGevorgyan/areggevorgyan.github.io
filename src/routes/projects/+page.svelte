@@ -2,7 +2,7 @@
   import { page } from "$app/stores";
 
   import { onMount } from "svelte";
-  import { CalendarDays, Star } from "lucide-svelte";
+  
 
   import Seo from "$lib/components/Seo.svelte";
   import Project from "./Project.svelte";
@@ -39,52 +39,22 @@
     }
   });
 
-  let stars: Record<string, number> | null = null;
-  onMount(async () => {
-    const resp = await fetch(
-      "https://api.github.com/users/ekzhang/repos?per_page=100"
-    );
-    const repos = await resp.json();
-    stars = {};
-    for (const obj of repos) {
-      stars[obj.full_name] = obj.stargazers_count;
-    }
-  });
-
-  $: projectsByStars = [...projectsByTitle].sort((a, b) => {
-    const starsA = stars?.[projects[a].repo] ?? 0;
-    const starsB = stars?.[projects[b].repo] ?? 0;
-    return starsB - starsA;
-  });
-
-  let sortOrder: "date" | "stars" = "date";
+  // Only sort by date; no GitHub stars fetching or sorting
 </script>
 
 <Seo
-  title="Eric Zhang – Projects"
-  description="Open-source software projects in systems, web development, computer graphics, music, programming languages, machine learning, and more."
+  title="Areg Gevorgyan – Projects"
+  description="Open source projects in machine learning, visualizing math, and more."
 />
 
 <section class="layout-md py-12">
-  <h2 class="heading2">Open Source</h2>
 
   <p class="text-lg mb-4">
-    I view building software in the open as a mode of <em
-      class="font-serif text-[110%] leading-[100%]">creative exploration</em
-    >. It lets me quickly act on inspiration, delve into new topics, and make
-    tools that improve people's lives.
-  </p>
-
-  <p class="text-lg mb-4">
-    You'll see that I particularly like programming languages, distributed
-    systems, machine learning, computer graphics, music, and art.
+    My goal is to work on projects daily and use them as experiments for exploring my interests.
   </p>
 
   <p class="text-lg">
-    If you find something interesting,
-    <a class="link" href="mailto:ekzhang1@gmail.com?subject=Software%20Projects"
-      >let me know</a
-    >!
+    Feel free to reach out if you are interested in collaborating!
   </p>
 </section>
 
@@ -101,37 +71,16 @@
   </section>
 </div>
 
-<div class="bg-neutral-50 border-b border-neutral-200 py-4">
-  <div class="flex justify-center space-x-6">
-    <button
-      class:active={sortOrder === "date"}
-      on:click={() => (sortOrder = "date")}
-    >
-      <CalendarDays size={18} strokeWidth={1.8} class="mr-1.5" /> by Date
-    </button>
-    <button
-      class:active={sortOrder === "stars"}
-      on:click={() => (sortOrder = "stars")}
-    >
-      <Star size={18} strokeWidth={1.8} class="mr-1.5" /> by Stars
-    </button>
-  </div>
-</div>
+<!-- Sorting is fixed by date; star-based toggle removed -->
 
-{#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
+{#each projectsByDate as id (id)}
   <section class="py-10" id={trimName(id)}>
     <div class="mx-auto max-w-[1152px] px-4 sm:px-6">
-      <Project data={projects[id]} {images} {stars} />
+  <Project data={projects[id]} {images} />
     </div>
   </section>
 {/each}
 
 <style lang="postcss">
-  button {
-    @apply flex items-center text-neutral-400 transition-colors hover:text-black;
-  }
-
-  button.active {
-    @apply text-black;
-  }
+  /* Sorting buttons removed */
 </style>
