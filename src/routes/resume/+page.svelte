@@ -72,7 +72,7 @@
 <section class="layout-md py-12">
   <h2 class="heading2">Skills</h2>
 
-  <div classs="mb-4">
+  <div class="mb-4">
   <h3 class="font-medium mb-1">Programming:</h3>
   Python, C/C++, Java, MATLAB, C#, JavaScript LaTeX, GAS Assembly
   <h3 class="font-medium mb-1">Frameworks:</h3>

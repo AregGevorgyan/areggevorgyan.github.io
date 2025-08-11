@@ -5,7 +5,7 @@
   export let company: string;
   export let url: string;
   export let dates: string;
-  export let location: string;
+//  export let location: string;
   export let defaultHidden = false;
 
   let hidden = defaultHidden;
@@ -23,7 +23,7 @@
   <p class="font-light mb-2">
     <span class="whitespace-nowrap">{dates}</span>
     <span class="px-0.5 text-neutral-500">•</span>
-    <span class="whitespace-nowrap">{location}</span>
+    <!-- <span class="whitespace-nowrap">{location}</span> -->
   </p>
   {#if !hidden}
     <ul class="list-disc pl-7 marker:text-neutral-400" in:fade|local>
