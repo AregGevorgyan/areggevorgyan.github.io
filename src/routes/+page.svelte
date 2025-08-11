@@ -20,28 +20,25 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      Hi, I’m an undergraduate student at University of Maryland studying 
-      Mathematics and Computer Science. I am currently interning at the 
-      Collective Dynamics and Control Lab at UMD, as well as working on 
-      personal projects such as building machine learning algorithms from 
-      scratch and formalizing math in lean. I previously worked as a VR 
-      developer for the Earth Sciences department and led the Math Team 
-      at my high school.
+      Hi, I’m an undergraduate student at University of Maryland studying
+      Mathematics and Computer Science. I am currently interning at the
+      Collective Dynamics and Control Lab at UMD, as well as working on personal
+      projects such as building machine learning algorithms from scratch and
+      formalizing math in lean. I previously worked as a VR developer for the
+      Earth Sciences department and led the Math Team at my high school.
     </p>
 
     <p>
-      I’m interested in everything related to mathematics and computer science, 
-      particularly areas that blur the lines between the two and have implications 
-      in both theory and practice, such as machine learning and algorithms. 
+      I’m interested in everything related to mathematics and computer science,
+      particularly areas that blur the lines between the two and have
+      implications in both theory and practice, such as machine learning and
+      algorithms.
     </p>
   </div>
 
   <div class="space-y-5">
     <!-- <p>This is what I look like:</p> -->
-    <img
-      alt="Picture of Areg"
-      src="/assets/images/portrait.jpg"
-    />
+    <img alt="Picture of Areg" src="/assets/images/portrait.jpg" />
   </div>
 </div>
 

@@ -23,7 +23,9 @@
 
   <h4 class="font-medium mt-4 mb-1">Selected coursework:</h4>
   <ul>
-    <li>Honors Linear Algebra, Multivariable Calculus, and Differential Equations</li>
+    <li>
+      Honors Linear Algebra, Multivariable Calculus, and Differential Equations
+    </li>
     <li>Discreate Structures</li>
     <li>Computer Systems</li>
     <li>Object Oritented Programming</li>
@@ -41,7 +43,10 @@
     url="https://cdcl.umd.edu/"
     dates="June 2025 - Present"
   >
-    <li>Building framework for testing vision language models for the DARPA Triage Challenge with the Collective Dynamics and Control Lab</li>
+    <li>
+      Building framework for testing vision language models for the DARPA Triage
+      Challenge with the Collective Dynamics and Control Lab
+    </li>
     <li>Utilized Python, HF Transformers, HF Accelerate, PyTorch</li>
     <li>Models will be deployed on Boston Dynamics Spot robot</li>
   </Workplace>
@@ -53,7 +58,8 @@
     dates="December 2024 - Present"
   >
     <li>
-      Developing financial model backtesting framework using JAX at student run quantitative fund
+      Developing financial model backtesting framework using JAX at student run
+      quantitative fund
     </li>
   </Workplace>
 
@@ -63,8 +69,14 @@
     url="https://cisess.umd.edu/"
     dates="June 2024 – October 2024"
   >
-    <li>Built VR application to educate about the types of lightning at Each Science Center</li>
-    <li>Project presented at AGU 2024 conference and won best presentation award at internship</li>
+    <li>
+      Built VR application to educate about the types of lightning at Each
+      Science Center
+    </li>
+    <li>
+      Project presented at AGU 2024 conference and won best presentation award
+      at internship
+    </li>
     <li>Used C#, Unity, Git, and Blender</li>
   </Workplace>
 </section>
@@ -73,12 +85,12 @@
   <h2 class="heading2">Skills</h2>
 
   <div class="mb-4">
-  <h3 class="font-medium mb-1">Programming:</h3>
-  Python, C/C++, Java, MATLAB, C#, JavaScript LaTeX, GAS Assembly
-  <h3 class="font-medium mb-1">Frameworks:</h3>
-  PyTorch, Pandas, NumPy, SciPy, JAX, Huggingface packages
-  <h3 class="font-medium mb-1">Developer Tools:</h3>
-  Linux, Bash/Zsh/Tmux, Git, SLURM, Vim, Emacs, Docker
+    <h3 class="font-medium mb-1">Programming:</h3>
+    Python, C/C++, Java, MATLAB, C#, JavaScript LaTeX, GAS Assembly
+    <h3 class="font-medium mb-1">Frameworks:</h3>
+    PyTorch, Pandas, NumPy, SciPy, JAX, Huggingface packages
+    <h3 class="font-medium mb-1">Developer Tools:</h3>
+    Linux, Bash/Zsh/Tmux, Git, SLURM, Vim, Emacs, Docker
   </div>
 </section>
 

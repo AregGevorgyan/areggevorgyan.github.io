@@ -5,7 +5,7 @@
   export let company: string;
   export let url: string;
   export let dates: string;
-//  export let location: string;
+  //  export let location: string;
   export let defaultHidden = false;
 
   let hidden = defaultHidden;

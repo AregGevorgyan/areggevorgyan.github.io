@@ -2,7 +2,6 @@
   import { page } from "$app/stores";
 
   import { onMount } from "svelte";
-  
 
   import Seo from "$lib/components/Seo.svelte";
   import Project from "./Project.svelte";
@@ -48,9 +47,9 @@
 />
 
 <section class="layout-md py-12">
-
   <p class="text-lg mb-4">
-    My goal is to work on projects daily and use them as experiments for exploring my interests.
+    My goal is to work on projects daily and use them as experiments for
+    exploring my interests.
   </p>
 
   <p class="text-lg">
@@ -76,7 +75,7 @@
 {#each projectsByDate as id (id)}
   <section class="py-10" id={trimName(id)}>
     <div class="mx-auto max-w-[1152px] px-4 sm:px-6">
-  <Project data={projects[id]} {images} />
+      <Project data={projects[id]} {images} />
     </div>
   </section>
 {/each}

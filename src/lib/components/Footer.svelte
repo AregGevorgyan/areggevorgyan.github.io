@@ -2,7 +2,9 @@
   <div class="row">
     <span>LinkedIn</span>
     <hr />
-    <a class="link" href="https://www.linkedin.com/in/areggevorgyan1/">in/areggevorgyan1</a>
+    <a class="link" href="https://www.linkedin.com/in/areggevorgyan1/"
+      >in/areggevorgyan1</a
+    >
   </div>
   <div class="row">
     <span>GitHub</span>
@@ -12,10 +14,15 @@
   <div class="row">
     <span>Email</span>
     <hr />
-    <a class="link" href="mailto:areg@terpmail.umd.edu">areg@terpmail.umd.edu</a>
+    <a class="link" href="mailto:areg@terpmail.umd.edu">areg@terpmail.umd.edu</a
+    >
   </div>
   <div class="row">
-    <span class="w-full text-center text-neutral-500">Website template from <a class="link" href="https://www.ekzhang.com/">Eric Zhang</a></span>
+    <span class="w-full text-center text-neutral-500"
+      >Website template from <a class="link" href="https://www.ekzhang.com/"
+        >Eric Zhang</a
+      ></span
+    >
   </div>
 </footer>
 
