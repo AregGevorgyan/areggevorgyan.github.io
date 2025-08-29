@@ -19,7 +19,7 @@
     <p class="byline">B.S. Mathematics, B.S. Computer Science</p>
   </div>
 
-  <p>University Honors student with junior standing.</p>
+  <p>Junior standing.</p>
 
   <h4 class="font-medium mt-4 mb-1">Selected coursework:</h4>
   <ul>
@@ -41,7 +41,7 @@
     title="Machine Learning Intern"
     company="University of Maryland"
     url="https://cdcl.umd.edu/"
-    dates="June 2025 - Present"
+    dates="June 2025 - August 2025"
   >
     <li>
       Building framework for testing vision language models for the DARPA Triage

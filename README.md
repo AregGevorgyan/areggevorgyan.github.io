@@ -12,3 +12,5 @@ This website is powered by [SvelteKit](https://kit.svelte.dev/) and
 $ npm install
 $ npm run dev
 ```
+
+Run `prettier --ignore-path .gitignore --write --plugin-search-dir=. .` to format your code before committing.

@@ -34,6 +34,10 @@
       implications in both theory and practice, such as machine learning and
       algorithms.
     </p>
+
+    <p>
+      I recently started a substack called <a class="link" href="https://a11n.substack.com/">Prime Factor</a>.
+    </p>
   </div>
 
   <div class="space-y-5">
