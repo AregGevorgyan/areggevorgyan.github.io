@@ -36,7 +36,10 @@
     </p>
 
     <p>
-      I recently started a substack called <a class="link" href="https://a11n.substack.com/">Prime Factor</a>.
+      I recently started a substack called <a
+        class="link"
+        href="https://a11n.substack.com/">Prime Factor</a
+      >.
     </p>
   </div>
 
