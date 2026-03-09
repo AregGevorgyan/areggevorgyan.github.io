@@ -7,7 +7,7 @@
     {
       name: "Cortex",
       href: "/projects#Cortex",
-      desc: "Modern machine learning from scratch",
+      desc: "Modern deep learning from scratch",
     },
   ];
 </script>
@@ -20,32 +20,17 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      Hi, I’m an undergraduate student at University of Maryland studying
-      Mathematics and Computer Science. I am currently interning at the
-      Collective Dynamics and Control Lab at UMD, as well as working on personal
-      projects such as building machine learning algorithms from scratch and
-      formalizing math in lean. I previously worked as a VR developer for the
-      Earth Sciences department and led the Math Team at my high school.
+      Hi, I study Mathematics and Computer Science at University of Maryland.
+      I'm interested in everything related to those fields, particularly areas
+      that blur the lines between the two and have implications in both theory
+      and practice, such as machine learning and algorithms.
     </p>
 
     <p>
-      I’m interested in everything related to mathematics and computer science,
-      particularly areas that blur the lines between the two and have
-      implications in both theory and practice, such as machine learning and
-      algorithms.
+      I'm currenlty building CallCode, working on developing LLMs from scratch,
+      and AI systems for Math. Previously I interned at CDCL at UMD where I built
+      AI systems for robotics.
     </p>
-
-    <p>
-      I recently started a substack called <a
-        class="link"
-        href="https://a11n.substack.com/">Prime Factor</a
-      >.
-    </p>
-  </div>
-
-  <div class="space-y-5">
-    <!-- <p>This is what I look like:</p> -->
-    <img alt="Picture of Areg" src="/assets/images/portrait.jpg" />
   </div>
 </div>
 
