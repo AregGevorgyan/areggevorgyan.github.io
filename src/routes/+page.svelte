@@ -28,8 +28,8 @@
 
     <p>
       I'm currenlty building CallCode, working on developing LLMs from scratch,
-      and AI systems for Math. Previously I interned at CDCL at UMD where I built
-      AI systems for robotics.
+      and AI systems for Math. Previously I interned at CDCL at UMD where I
+      built AI systems for robotics.
     </p>
   </div>
 </div>
