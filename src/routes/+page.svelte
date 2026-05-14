@@ -14,22 +14,28 @@
 
 <Seo
   title="Areg Gevorgyan"
-  description="Researcher, Builder, and Computer Science and Mathematics student."
+  description="Researcher, Builder, and Math + CS student."
 />
 
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      Hi, I study Mathematics and Computer Science at University of Maryland.
-      I'm interested in everything related to those fields, particularly areas
-      that blur the lines between the two and have implications in both theory
-      and practice, such as machine learning and algorithms.
+      I'm a builder and Math + CS student at UMD interested in the intersection
+      of the two fields I study. Particularly areas that blur the lines between
+      the two and have implications in both theory and practice, such as machine
+      learning and algorithms.
     </p>
 
     <p>
-      I'm currenlty building CallCode, working on developing LLMs from scratch,
-      and AI systems for Math. Previously I interned at CDCL at UMD where I
-      built AI systems for robotics.
+      I'm currently building
+      <a href="https://github.com/alkahest-cas/alkahest">alkahest</a>, a modern
+      high performance symbolic math system designed for the era of AI agents.
+    </p>
+
+    <p>
+      Before this I worked on a voice multi-agent orchestration platform
+      CallCode, built deep learning framework from scratch, and deployed AI
+      models on the Boston Dynamics Spot robot.
     </p>
   </div>
 </div>
